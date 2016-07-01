@@ -1,7 +1,4 @@
-
-Parse.Cloud.define('hello', function(req, res) {
-  res.success('Hi');
-});
+Parse.serverURL = 'https://verkisto-parse-azure.azurewebsites.net/parse/';
 
 // Story > create
 Parse.Cloud.define('createStory', function(request, response) {
